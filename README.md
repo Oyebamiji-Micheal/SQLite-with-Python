@@ -19,7 +19,7 @@ Python 3.10.6 was used at the time of documenting this whole thing. SQLite by de
 
 <a id='schema'></a>
 
-<h3>Defining Database Schema<h3>
+<h3>Defining Database Schema</h3>
 
 At the moment there isn't a database readily available to connect to. So a new one named, `result.db` was created, and will be used throughout this scope.
 
@@ -51,6 +51,7 @@ Tables. Three tables were created inside the same database and for the sake of r
 |     1      |    139    |  77   | 2022-10-04 16:15:06 |
 |     1      |    140    |  95   | 2022-10-04 16:15:06 |
 |     1      |    141    |  58   | 2022-10-04 16:15:06 |
+
 
 1. **Student Profiles**: This table stores basic profile information such as name, faculty, department and current_level. To keep things simple, this table does not necessarily need to store information such as date of birth, gender, nationality and so on.
 2. **Courses**: This table stores course codes and their corresponding description.
